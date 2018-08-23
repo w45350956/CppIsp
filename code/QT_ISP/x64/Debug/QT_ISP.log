@@ -1,0 +1,44 @@
+﻿生成启动时间为 2018/8/23 19:46:38。
+     1>项目“C:\Users\keda\Desktop\test\QT_Project\code\QT_ISP\QT_ISP.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I..\include /I.\GeneratedFiles /I. /IC:\Qt\Qt5.9.0\5.9\msvc2015_64\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.9.0\5.9\msvc2015_64\include\QtCore /IC:\Qt\Qt5.9.0\5.9\msvc2015_64\include\QtGui /IC:\Qt\Qt5.9.0\5.9\msvc2015_64\include\QtANGLE /IC:\Qt\Qt5.9.0\5.9\msvc2015_64\include\QtOpenGL /IC:\Qt\Qt5.9.0\5.9\msvc2015_64\include\QtWidgets /Zi /nologo /W1 /WX- /MP /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt ..\app\Algorithm\Algorithm.cpp main.cpp COpenCV.cpp QTWidgetShow.cpp QTWidgetThread.cpp QTWidgetTools.cpp QT_ISPUI.cpp CTransform.cpp .\GeneratedFiles\Debug\moc_QTWidgetTools.cpp .\GeneratedFiles\Debug\moc_QT_ISPUI.cpp .\GeneratedFiles\Debug\moc_QTWidgetShow.cpp .\GeneratedFiles\Debug\moc_QTWidgetThread.cpp .\GeneratedFiles\qrc_QT_ISPUI.cpp
+         Algorithm.cpp
+         main.cpp
+         COpenCV.cpp
+         QTWidgetShow.cpp
+         QTWidgetThread.cpp
+         QTWidgetTools.cpp
+         QT_ISPUI.cpp
+         CTransform.cpp
+         moc_QTWidgetTools.cpp
+         moc_QT_ISPUI.cpp
+     1>QTWidgetTools.cpp(27): warning C4129: “.”: 不可识别的字符转义序列
+     1>QTWidgetTools.cpp(28): warning C4129: “.”: 不可识别的字符转义序列
+     1>QTWidgetTools.cpp(29): warning C4129: “.”: 不可识别的字符转义序列
+         moc_QTWidgetShow.cpp
+         moc_QTWidgetThread.cpp
+         qrc_QT_ISPUI.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"x64\Debug\QT_ISP.res" QT_ISP.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\\QT_ISP.exe" /NOLOGO /LIBPATH:..\..\lib /LIBPATH:C:\Qt\Qt5.9.0\5.9\msvc2015_64\lib opencv_world341d.lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5OpenGLd.lib opengl32.lib glu32.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"..\..\bin\QT_ISP.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\QT_ISP.lib" /MACHINE:X64 x64\Debug\QT_ISP.res
+         x64\Debug\Algorithm.obj
+         x64\Debug\main.obj
+         x64\Debug\COpenCV.obj
+         x64\Debug\QTWidgetShow.obj
+         x64\Debug\QTWidgetThread.obj
+         x64\Debug\QTWidgetTools.obj
+         x64\Debug\QT_ISPUI.obj
+         x64\Debug\CTransform.obj
+         x64\Debug\moc_QTWidgetTools.obj
+         x64\Debug\moc_QT_ISPUI.obj
+         x64\Debug\moc_QTWidgetShow.obj
+         x64\Debug\moc_QTWidgetThread.obj
+         x64\Debug\qrc_QT_ISPUI.obj
+         QT_ISP.vcxproj -> C:\Users\keda\Desktop\test\QT_Project\code\QT_ISP\..\..\bin\QT_ISP.exe
+     1>已完成生成项目“C:\Users\keda\Desktop\test\QT_Project\code\QT_ISP\QT_ISP.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:06.11
